@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1449063883 source:/home/pi/projects/razig/common/user.c
+	<string.h>
+
+1449130059 source:/home/pi/projects/razig/lib/user_mysql.c
+	<stdio.h>
+	<string.h>
+	"/usr/include/mysql/mysql.h"
+
+1430741807 /usr/include/mysql/mysql.h
+	<standards.h>
+	<sys/types.h>
+	<winsock2.h>
+	"mysql_version.h"
+	"mysql_com.h"
+	"mysql_time.h"
+	"my_list.h"
+	"typelib.h"
+	"my_alloc.h"
+
+1437215804 /usr/include/mysql/mysql_version.h
+	<custom_conf.h>
+
+1430741807 /usr/include/mysql/mysql_com.h
+
+1430741807 /usr/include/mysql/mysql_time.h
+
+1430741807 /usr/include/mysql/my_list.h
+
+1430741807 /usr/include/mysql/typelib.h
+	"my_alloc.h"
+
+1430741807 /usr/include/mysql/my_alloc.h
+

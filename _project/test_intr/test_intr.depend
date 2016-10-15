@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1447389905 source:/home/pi/projects/razig/lib/piHiPri.c
+	<sched.h>
+	<string.h>
+	"wiringPi.h"
+
+1447389905 /home/pi/projects/razig/lib/wiringPi.h
+
+1447849828 source:/home/pi/projects/razig/lib/softPwm.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softPwm.h"
+
+1447848172 /home/pi/projects/razig/lib/softPwm.h
+
+1447389905 source:/home/pi/projects/razig/lib/softTone.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softTone.h"
+
+1447389905 /home/pi/projects/razig/lib/softTone.h
+
+1447848091 source:/home/pi/projects/razig/lib/wiringPi.c
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+	<poll.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<time.h>
+	<fcntl.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<sys/ioctl.h>
+	"softPwm.h"
+	"softTone.h"
+	"wiringPi.h"
+
+1448013215 source:/home/pi/projects/razig/test/test_intr.c
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	"../lib/wiringPi.h"
+

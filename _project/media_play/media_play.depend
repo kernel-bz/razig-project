@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1448726635 source:/home/pi/projects/razig/media/media_play.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/statvfs.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<fcntl.h>
+	<dirent.h>
+	<signal.h>
+

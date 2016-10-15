@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1447848091 source:/home/pi/projects/razig/lib/wiringPi.c
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+	<poll.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<time.h>
+	<fcntl.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<sys/ioctl.h>
+	"softPwm.h"
+	"softTone.h"
+	"wiringPi.h"
+
+1447848172 /home/pi/projects/razig/lib/softPwm.h
+
+1447389905 /home/pi/projects/razig/lib/softTone.h
+
+1447389905 /home/pi/projects/razig/lib/wiringPi.h
+
+1453870217 source:/home/pi/projects/razig/lib/softPwm.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softPwm.h"
+
+1456361605 source:/home/pi/projects/razig/motor_uart/motor_uart.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<unistd.h>
+	<string.h>
+	<sys/statvfs.h>
+	<fcntl.h>
+	<dirent.h>
+	"../lib/wiringPi.h"
+	"../lib/softPwm.h"
+	"../common/gpio.h"
+	"dxl_hal.h"
+	"dynamixel.h"
+
+1456223157 /home/pi/projects/razig/common/gpio.h
+
+1447389905 source:/home/pi/projects/razig/lib/piHiPri.c
+	<sched.h>
+	<string.h>
+	"wiringPi.h"
+
+1447389905 source:/home/pi/projects/razig/lib/softTone.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softTone.h"
+
+1456223280 source:/home/pi/projects/razig/motor_uart/dxl_hal.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<termios.h>
+	<linux/serial.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	"dxl_hal.h"
+
+1265938098 /home/pi/projects/razig/motor_uart/dxl_hal.h
+
+1456360999 source:/home/pi/projects/razig/motor_uart/dynamixel.c
+	"dxl_hal.h"
+	"dynamixel.h"
+
+1456361454 /home/pi/projects/razig/motor_uart/dynamixel.h
+

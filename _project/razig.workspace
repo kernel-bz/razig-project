@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="RaZig">
+		<Project filename="test_gpio_blink/test_gpio_blink.cbp" />
+		<Project filename="test_i2c/test_i2c.cbp" />
+		<Project filename="test_spi/test_spi.cbp" />
+		<Project filename="test_pwm/test_pwm.cbp" />
+		<Project filename="test_intr/test_intr.cbp" />
+		<Project filename="motor/motor.cbp" />
+		<Project filename="media_play/media_play.cbp" />
+		<Project filename="media_control/media_control.cbp" />
+		<Project filename="media_run/media_run.cbp" />
+		<Project filename="media_list/media_list.cbp" />
+		<Project filename="XL320/XL320.cbp" />
+		<Project filename="motor_uart/motor_uart.cbp" />
+		<Project filename="../gpio_control/gpio_control.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

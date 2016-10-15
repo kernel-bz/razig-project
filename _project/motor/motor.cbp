@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="motor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/motor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/motor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../lib/piHiPri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../lib/softPwm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../lib/softPwm.h" />
+		<Unit filename="../../lib/softTone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../lib/softTone.h" />
+		<Unit filename="../../lib/wiringPi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../lib/wiringPi.h" />
+		<Unit filename="../../motor/motor_dc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
