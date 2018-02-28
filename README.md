@@ -16,5 +16,5 @@ motor: 모터 제어 소스<br>
 motor_uart: 다이나믹셀 모터 제어 소스<br>
 test: 테스트 소스<br>
 
-
-작성자: 정재준 on the www.kernel.bz
+책소개 링크:
+http://www.kernel.bz/product/14
