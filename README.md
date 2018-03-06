@@ -18,3 +18,5 @@ test: 테스트 소스<br>
 
 책소개 링크:
 http://www.kernel.bz/product/14
+
+Last Updated: 2018-03-06
